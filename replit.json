@@ -1,0 +1,25 @@
+{
+  "name": "NumLab-VPN",
+  "description": "Site web sécurisé de téléchargement de fichiers VPN",
+  "language": "nodejs",
+  "run": "npm start",
+  "staticFiles": {
+    "public": "public"
+  },
+  "start": "node server.js",
+  "install": "npm install",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-rate-limit": "^7.1.5",
+    "fs-extra": "^11.2.0",
+    "multer": "^1.4.5-lts.1",
+    "uuid": "^9.0.1"
+  }
+}
